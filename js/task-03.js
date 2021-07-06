@@ -20,4 +20,4 @@ const galArray = images.map(({ url, alt }) =>
     </li>`
 );
 
-ulImages.insertAdjacentHTML('beforeend', galArray.join(','))
+ulImages.insertAdjacentHTML('beforeend', galArray.join(''))
